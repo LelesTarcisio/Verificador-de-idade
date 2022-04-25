@@ -1,0 +1,41 @@
+body{
+    background-color:floralwhite;
+    font-family: 'century gothic';
+    font-size: 15px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color: rosybrown;
+    text-decoration: underline 1px;
+    text-underline-offset: 10px;
+    
+}
+
+section {
+    background-color: rosybrown;
+    width: 500px;
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.527);
+
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+#res{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    background-color: rosybrown;
+    color: rgb(253, 253, 241);
+    border-radius: 14px;
+    font-size: 20px;
+}

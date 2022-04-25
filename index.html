@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Verificador de idade</title>
+</head>
+
+<body onload="verIdade()">
+
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Digite o ano em que você nasceu: <input type="number" id="ano"></p>
+            <p>Sexo: <input type="radio" name="radsex" id="masc" checked>
+                <!--input dipo radio é a caixa redonda para marcar-->
+                <label for="masc">Masculino</label>
+                <!--O label faz referencia do nome à caixa de marcar-->
+                <input type="radio" name="radsex" id="fem">
+                <!--sempre usaremos 'name'  igual para os inputs radio para que a opção seja sempre um ou o outro-->
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <button id="btn">Verificar</button>
+            </p>
+        </div>
+        <div id="res">
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
